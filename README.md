@@ -25,9 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/website_desktop.png)
-![](./images/website_tablet.png)
-![](./images/website_mobile.png)
+<img src="./images/website_desktop.png" width="750">
+<img src="./images/website_tablet.png" width="450">
+<img src="./images/website_mobile.png" width="300">
 
 
 ### Links
