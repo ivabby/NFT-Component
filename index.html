@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section
+        class="d-flex justify-content-center align-items-center"
+      >
+        <div
+          class="nft_card col-10 col-sm-6 col-md-5 col-lg-3 justify-content-center p-4"
+        >
+          <div class="nft_image_div justify-content-center m-0 p-0">
+            <img
+              class="nft_image card-img-top"
+              src="./images/image-equilibrium.jpg"
+              alt="Equilibrium"
+            />
+            <div class="icon_view"></div>
+          </div>
+          <h4 class="nft_heading m-0 mt-4 p-0">Equilibrium #3429</h4>
+          <p class="m-0 mt-2 p-0 nft_description">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="mt-1 d-flex justify-content-between">
+            <div class="d-flex align-items-center nft_quantity m-0 q-0">
+              <img src="./images/icon-ethereum.svg" alt="icon-ethereum" />
+              <p class="m-1">0.041 ETH</p>
+            </div>
+            <div class="d-flex align-items-center nft_days">
+              <img src="./images/icon-clock.svg" alt="icon-clock" />
+
+              <p class="m-1">3 days left</p>
+            </div>
+          </div>
+          <div class="line mt-2"></div>
+          <div class="nft_avatar_div m-0 mt-2 d-flex align-items-center">
+            <img
+              class="nft_avatar"
+              src="./images/image-avatar.png"
+              alt="Avatar"
+            />
+            <p class="nft_card_footer">
+              <span class="nft_card_creation">Creation of</span>
+              <span class="nft_name">Jules Wyvern</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- <section
+        class="d-flex flex-column"
+      >
+        <h1>Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div>
+          <p>0.041 ETH</p>
+          <p>3 days left</p>
+        </div>
+        <h5>Creation of Jules Wyvern</h5>
+      </section> -->
+    </main>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>

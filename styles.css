@@ -1,0 +1,107 @@
+body {
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  font-family: "Outline" !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+
+p,
+div {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h4 {
+  font-weight: 600 !important;
+}
+
+p {
+  font-weight: 300 !important;
+}
+
+section {
+  height: 100vh;
+}
+
+.nft_card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+}
+
+.nft_image {
+  border-radius: 12px;
+}
+
+.nft_avatar {
+  width: 35px;
+}
+
+.nft_quantity {
+  color: hsl(178, 100%, 50%);
+}
+.line {
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+.nft_avatar_div > p {
+  margin-left: 12px !important;
+  font-size: 14px !important;
+}
+
+.nft_description,
+.nft_days > p,
+.nft_avatar_div > p {
+  color: hsl(215, 51%, 70%) !important;
+  font-weight: 300 !important;
+  /* font-size: 16px; */
+}
+
+.nft_avatar_div > p {
+  color: white !important;
+}
+
+.nft_card_creation {
+  color: hsl(215, 51%, 70%) !important;
+}
+
+.nft_heading:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+.nft_name:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%) !important;
+}
+
+.nft_image_div:hover {
+  cursor: pointer;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 12px;
+  /* background-image: url("./images//icon-view.svg"); */
+  /* content: url("./images/icon-view.svg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+}
+.nft_image_div {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.nft_image_div:hover .nft_image {
+  opacity: 0.5;
+  position: relative;
+  background-color: hsl(178, 100%, 50%);
+}
+.nft_image_div:hover .icon_view {
+  content: url("./images//icon-view.svg");
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  margin: 0 !important;
+  /* left: 46%; */
+}
